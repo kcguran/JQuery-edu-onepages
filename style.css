@@ -1,0 +1,149 @@
+/* Common Config */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(13, 32, 18);
+    text-align: center;
+    line-height: 1.7;
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    height: auto;
+    width: 100%;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+
+/* Header */
+header{
+    height: 80rem;
+    position: relative;
+    /*background-color: blueviolet;*/
+}
+
+header .image-header{
+    height: 80rem;
+    width: 100%;
+    background-image: url(image/image-header-2.jpg);
+    opacity: 0.4;
+    z-index: -1;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+}
+
+header h1{
+    padding: 24rem 12rem 2rem 12rem;
+    text-transform: uppercase;
+}
+
+header p{
+    padding: 3rem;
+}
+
+.btn-header{
+    color: #fff;
+    background-color: #007bff;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    border-radius: .25rem;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    transition: all 0.4s;
+    margin: .6rem 0;
+    padding: 1.7rem 3.4rem;
+    border: 1ps solid rgb(255,212,59);
+    white-space: nowrap;
+    box-shadow: 1px 2px 3px 2px black;
+}
+
+.btn-header:hover{
+    background-color: #fff;
+    color: #007bff;
+    box-shadow: 1px 2px 6px 2px black;
+}
+
+/* section-1 */
+
+#division-1-main{
+    background-color: black;
+    color: #fff;
+    padding: 4.4rem 0;
+}
+
+
+/* section-2 list */
+
+main #division-2-list ul{
+    list-style-type: none;
+}
+
+#division-2-list{
+    padding: 2.3rem;
+    background-color: #fff;
+    color: #234;
+}
+
+.area-div{
+    padding: 1.4rem;
+}
+
+.area img{
+    border-radius: 1rem;
+    opacity: 0.9;
+}
+
+.area-div h3{
+    text-transform: lowercase;
+    font-weight: bold;
+}
+
+/* division-3-career */ 
+
+#division-3-career{
+    width: 100%;
+    height: 50rem;
+    margin: 2rem 0;
+}
+
+#left-main{
+    float: left;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: tomato;
+}
+
+#right-main{
+    float: left;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: orangered;
+}
+
+#right-main ul{
+    list-style-type: none;
+}
