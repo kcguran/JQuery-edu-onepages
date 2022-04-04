@@ -11,15 +11,22 @@
 </head>
 
 <body>
-    <nav style="position: absolute;">
-        <div><img src="image/logo.png" alt=""></div>
-        <div>
-            <ul>
-                <li>Home</li>
-                <li>Career</li>
-                <li>News</li>
-                <li>Contact</li>
-            </ul>
+    <div id="top"></div>
+    <nav>
+        <div class="container">
+            <div id="logo">
+                <a href="" class="btk-akademi">
+                    <img src="image/logo2.jpg" alt="Btk Akademi" id="logo-image">
+                </a>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li class="menu-item"><a href=""><i class="fas fa-home"></i>Home</a></li>
+                    <li class="menu-item"><a href="#division-3-career"><i class="fas fa-user-check"></i>Career</a></li>
+                    <li class="menu-item"><a href=""><i class="fas fa-newspaper"></i>News</a></li>
+                    <li class="menu-item"><a href=""><i class="far fa-id-card"></i>Contact</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -35,8 +42,11 @@
     <main>
         <section id="division-1-main">
             <div class="piece">
-                <h2>Section-1</h2>
-                <p>lorem2</p>
+                <h2>Ana Başlık Alanı</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit itaque facilis vitae, iusto fugit
+                    aperiam quia illo soluta omnis quod corrupti mollitia recusandae quis ipsum nostrum nulla provident,
+                    esse et enim quidem voluptates dignissimos assumenda vel molestias. Laboriosam, necessitatibus
+                    suscipit.</p>
             </div>
         </section>
         <section id="division-2-list">
@@ -94,11 +104,44 @@
                 </ul>
             </div>
         </section>
-
-
-
-
+        <section id="form-email">
+            <form action="" method="post">
+                <div class="form-control">
+                    <div class="form-group">
+                        <label for="fullName">Ad Soyad Giriniz.</label>
+                        <input class="form-control" type="text" name="fullName" id="fullName"
+                            placeholder="Lütfen Adınızı Giriniz" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Giriniz</label>
+                        <input class="form-control" type="email" name="email" id="email"
+                            placeholder="Lütfen Adınızı Giriniz" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mesajınız</label>
+                        <textarea name="" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck">
+                        <label for="exampleCheck" class="form-check-label">Check me out</label>
+                    </div>
+                </div>
+            </form>
+        </section>
     </main>
+
+    <div id="bottom">
+        <a href="#top"><i class="fas fa-arrow-up"></i>Top</a>
+    </div>
+
+
+
+    <footer>
+        <div id="division-footer">
+            <a href="">BTK AKADEMİ</a>
+            <p>Bütün Hakları Saklıdır. &copy;</p>
+        </div>
+    </footer>
 </body>
 
 </html>
